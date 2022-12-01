@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Alfa+Slab+One&display=swap');
+
+:root {
+  --dark: #333333;
+  --light: #fcfcfc;
+  --color: #2aab6c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: var(--light);
+  color: var(--color);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#top {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: var(--color);
+  font-size: 15px;
+}
+
+nav a {
+  color: var(--light);
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 900;
+}
+
+body {
+  background-color: var(--color);
+  color: var(--light);
+  margin: 0;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+footer {
+  background-color: var(--dark);
+  color: var(--color);
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 70px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 1em 3em;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h3 {
+  color: var(--color);
+  background-color: var(--light);
+  border-radius: 150px;
+  padding-left: 10px;
+}
+
+.altcolor {
+  --dark: #222953;
+  --light: #f8ebce;
+  --color: #e04d39;
+}
+
+button {
+  color: var(--color);
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  background-color: var(--light);
+  border-radius: 5px;
+}

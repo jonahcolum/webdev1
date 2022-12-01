@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: grey;
+}
+
+.animation-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 20rem;
+
+}
+
+.box1 {
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: blue;
+background-image: linear-gradient(to right, #209cff , #28a5fa);
+animation-duration: 1s;
+animation-name: box1;
+animation-iteration-count: 1;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+@keyframes box1 {
+from {
+  transform: translate(0, -150%);
+  opacity: 0;
+}
+
+to {
+ opacity: 1;
+}
+}
+
+.box2 {
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: blue;
+background-image: linear-gradient(to right, #28a5fa , #35b2f3);
+animation-duration: 1s;
+animation-name: box2;
+animation-iteration-count: 1;
+animation-delay: 3s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+@keyframes box2 {
+from {
+  transform: translate(0, -150%);
+  opacity: 0;
+}
+
+to {
+ opacity: 1;
+}
+}
+
+.box3 {
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: blue;
+background-image: linear-gradient(to right, #35b2f3 , #43c0ea);
+animation-duration: 1s;
+animation-name: box3;
+animation-iteration-count: 1;
+animation-delay: 4s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+@keyframes box3 {
+from {
+  transform: translate(0, -150%);
+  opacity: 0;
+}
+
+to {
+ opacity: 1;
+}
+}
+
+.box4 {
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: blue;
+background-image: linear-gradient(to right, #43c0e9 , #52cde0);
+animation-duration: 1s;
+animation-name: box4;
+animation-iteration-count: 1;
+animation-delay: 5s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+@keyframes box4 {
+from {
+  transform: translate(0, -150%);
+  opacity: 0;
+}
+
+to {
+ opacity: 1;
+}
+}
+
+.box5 {
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: blue;
+background-image: linear-gradient(to right, #52cde0 , #5fd8d6);
+animation-duration: 1s;
+animation-name: box5;
+animation-iteration-count: 1;
+animation-delay: 6s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+@keyframes box5 {
+from {
+  transform: translate(0, -150%);
+  opacity: 0;
+}
+
+to {
+ opacity: 1;
+}
+}
+
+.box6 {
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: blue;
+background-image: linear-gradient(to right, #5fd8d6 , #5fd8d6);
+animation-duration: 1s;
+animation-name: box6;
+animation-iteration-count: 1;
+animation-delay: 7s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+@keyframes box6 {
+from {
+  transform: translate(0, -150%);
+  opacity: 0;
+}
+
+to {
+ opacity: 1;
+}
+}
+
+.buffer {
+display: inline-block;
+height: 100px;
+width: 100px;
+background-color: #2eabf7;
+border-radius: 10%;
+animation-duration: 5s;
+animation-name: buffer;
+animation-iteration-count: infinite;
+}
+
+@keyframes buffer {
+0% {
+  
+}
+
+15% {
+  border-radius: 50%;
+  background-color: #65ded1;
+  transform: rotate(180deg);
+}
+
+25% {
+  border-radius: 50%;
+  background-color: #65ded1;
+  transform: rotate(180deg);
+}
+
+40% {
+  transform: rotate(-45deg);
+  border-radius: 10%;
+  background-color: #4bc7e4;
+}
+
+50% {
+  transform: rotate(-45deg);
+  border-radius: 10%;
+  background-color: #4bc7e4;
+}
+
+65% {
+  transform: rotate(-180deg);
+  border-radius: 50%;
+  background-color: #65ded1;
+}
+
+75% {
+  transform: rotate(-180deg);
+  border-radius: 50%;
+  background-color: #65ded1;
+}
+
+100% {
+  
+}
+}
