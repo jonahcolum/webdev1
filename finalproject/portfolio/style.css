@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: grey;
+    background-color: #333;
 }
 
 .top {
@@ -26,10 +26,11 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: kanit;
     max-width: 70%;
     margin: auto;
+    color: #eee;
 }
 
 h3 {
@@ -50,6 +51,7 @@ h4 {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     border: .3rem solid black;
+    box-shadow: 1px 1px 30px black;
   }
   
   .gallery img {
@@ -62,6 +64,7 @@ h4 {
     text-align: center;
     width: 20rem;
     margin: auto;
+    color: #eee;
   }
 
   .footer {
